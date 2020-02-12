@@ -30,3 +30,6 @@ func main() {
 		fmt.Println(strings.Replace(t, otherWord, s.Text(), -1))
 	}
 }
+
+// basic word sprinkler ...
+// 	you give it a word and it adds a basic transform picked randomly and prints it out, it keeps running and keeps accepting words and printing sprinkled goodness... at least just for v1
